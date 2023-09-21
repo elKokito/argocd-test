@@ -5,10 +5,10 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    namespace: guestbook
+    namespace: default
     server: "https://kubernetes.default.svc"
   project: default
   source:
     path: guestbook
     repoURL: "https://github.com/elKokito/argocd-test.git"
-    targetRevision: HEAD
+    targetRevision: main
