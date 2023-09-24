@@ -11,7 +11,6 @@ spec:
   source:
     path: helm-guestbook
     repoURL: "https://github.com/mabusaa/argocd-example-apps.git"
-    targetRevion: master
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
