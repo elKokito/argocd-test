@@ -12,3 +12,7 @@ spec:
     path: nginx
     repoURL: "https://github.com/elKokito/argocd-test.git"
     targetRevision: main
+  syncPolicy:
+    automated: {}
+    syncOptions:
+      - CreateNamespace=true
